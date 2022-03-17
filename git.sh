@@ -18,10 +18,10 @@
 # checking if I have the latest files from github
 echo "Checking for newer files online first"
 git pull
+#
+#cd x86_64
 
-cd x86_64
-
-sh update.sh
+#sh update.sh
 
 # Below command will backup everything inside the project folder
 git add --all .
@@ -39,7 +39,7 @@ git commit -m "$input"
 
 # Push the local files to github
 
-git push -u origin master
+git push -u origin main
 
 
 echo "################################################################"
